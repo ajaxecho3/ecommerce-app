@@ -39,17 +39,17 @@ const Layout = ({ children }: Props) => {
 
   const navsFooter = [
     {
-      href: "javascript:void(0)",
+      href: "/",
       name: "Help",
       icon: <HelpCircle />,
     },
     {
-      href: "javascript:void(0)",
+      href: "/",
       name: "Settings",
       icon: <Settings />,
     },
     {
-      href: "javascript:void(0)",
+      href: "/",
       name: "Logout",
       icon: <LogOut />,
     },
@@ -134,7 +134,7 @@ const Layout = ({ children }: Props) => {
                         vienna@gmail.com
                       </span>
                       <a
-                        href="javascript:void(0)"
+                        href="/"
                         className="block w-full rounded-md p-2 text-left duration-150 hover:bg-gray-50 active:bg-gray-100"
                       >
                         Status

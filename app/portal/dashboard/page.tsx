@@ -58,7 +58,7 @@ const Page = (props: Props) => {
   }, []);
   return (
     <div className=" ">
-      <div className="">Dashboard </div>
+      <div className=" text-2xl font-semibold">Dashboard </div>
       <div className="grid gap-4 py-4 lg:grid-cols-5">
         <div className="col-span-1 flex w-full justify-between rounded-lg border bg-white p-4 lg:col-span-2">
           <div className="flex w-full flex-col pb-4">
