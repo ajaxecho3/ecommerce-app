@@ -5,9 +5,9 @@ export default function Loading() {
     <div className=" ">
       <Skeleton className="w-30 h-10 rounded-lg bg-gray-700" />
       <div className="grid gap-4 py-4 lg:grid-cols-5">
-        <Skeleton className="col-span-1 flex h-52 w-full justify-between rounded-lg border bg-gray-700 p-4 lg:col-span-2" />
-        <Skeleton className="col-span-1 flex h-52 w-full justify-between rounded-lg border bg-gray-700 p-4 lg:col-span-2" />
-        <Skeleton className="col-span-1 flex h-52 w-full justify-between rounded-lg border bg-gray-700 p-4 lg:col-span-2" />
+        <Skeleton className="col-span-1 flex h-10 w-full justify-between rounded-lg border bg-gray-700 p-4 lg:col-span-2" />
+        <Skeleton className="col-span-1 flex h-10 w-full justify-between rounded-lg border bg-gray-700 p-4 lg:col-span-2" />
+        <Skeleton className="col-span-1 flex h-10 w-full justify-between rounded-lg border bg-gray-700 p-4 lg:col-span-2" />
       </div>
       <div className="z-20 grid grid-cols-1 gap-4 py-4 md:grid-cols-3">
         <Skeleton className="relative m-auto h-[50vh] w-full rounded-lg border bg-gray-700 p-4 md:col-span-2 lg:h-[70vh]"></Skeleton>
